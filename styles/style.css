@@ -1,0 +1,183 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  /*background-color: hsl(0, 100%, 74%);*/
+  background-image: url("../images/bg-intro-mobile.jpg");
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.attribution {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.attribution a {
+  color: #b9b6d3;
+}
+
+main {
+  width: 350px;
+}
+
+header {
+  padding: 30px 0 30px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.buttonFree {
+  background-color: #6055a5;
+  color: white;
+  width: 100%;
+  height: 100px;
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-style: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.boldButtonText {
+  font-weight: 700;
+}
+
+form {
+  background-color: white;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 25px 30px;
+  border-radius: 10px;
+}
+
+form input {
+  color: #3e3c49;
+  border: 1px solid #b9b6d3;
+}
+
+.formElement {
+  height: 50px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+}
+
+.buttonClaim {
+  background-color: #38cc8c;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+
+.buttonClaim:hover {
+  -webkit-box-shadow: 0px 5px 20px #888888;
+          box-shadow: 0px 5px 20px #888888;
+  background: radial-gradient(circle, #38cc8c 0%, #268a5f 100%);
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.legal {
+  color: #b9b6d3;
+  font-size: 12px;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.linkTerms {
+  color: #ff7a7a;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  body {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: url("../images/bg-intro-desktop.jpg");
+  }
+  main {
+    width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: left;
+  }
+  .description {
+    width: 440px;
+  }
+  form {
+    width: 540px;
+  }
+  .buttonFree {
+    font-size: 16px;
+    height: 50px;
+  }
+  header {
+    padding: 30px 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
